@@ -25,6 +25,7 @@ function disableButton2(Buttonclicked1){
         if(Buttonclicked1.id !== buttonInfo.id){ 
             buttonInfo.disabled =true;
         }
+    });
  for (let i = 1; i <= 4; i++) {
     let count = 0;
     document.getElementById(`v${i}`).addEventListener("click", function () {
@@ -32,6 +33,5 @@ function disableButton2(Buttonclicked1){
         document.getElementById(`counter1_${i}`).innerText = count;
     });
 }
-    });
 }
  
