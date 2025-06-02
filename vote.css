@@ -235,9 +235,23 @@ body{
 }
 
 /* TOP to submit */ 
-.top{
-  margin: 2px,2px,2px,;
-  display: flex;
-  
+
+.title {
+  z-index: -12px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  margin: 500px;
+  color: #2B2B2F;
+  margin-top: 852px;
 }
 
+.description {
+  max-width: 80%;
+  margin: auto;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  color: #5F5D6B;
+}
