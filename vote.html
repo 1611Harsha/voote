@@ -29,7 +29,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn"  id="b1" onclick="increaseCount1(1)">Button</button>
+        <button class="card__btn"  id="b1" onclick="increaseCount1(1)"><img src="W:\voting\voote\images\img1.jpg" alt="" width="50px" height="50px" style="border-radius: 4px;">Button</button>
         <p>Number: <span id="counter_1">0</span></p>
     </div>
   </div>
@@ -40,7 +40,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn" id="b2" onclick="increaseCount1(2)">Button</button>
+        <button class="card__btn" id="b2" onclick="increaseCount1(2)"><img src="W:\voting\voote\images\img1.jpg" alt="" width="50px" height="50px" style="border-radius: 4px;">Button</button>
         <p>Number: <span id="counter_2">0</span></p>
     </div>
   </div>
@@ -51,7 +51,8 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn" id="b3" onclick="increaseCount1(3)">Button</button>
+        <button class="card__btn" id="b3" onclick="increaseCount1(3)"><img src="W:\voting\voote\images\img1.jpg" alt="" width="50px" height="50px" style="border-radius: 4px;">Button</button>
+       </a>
         <p>Number: <span id="counter_3">0</span></p>
     </div>
  </div>
@@ -62,7 +63,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn" id="b4" onclick="increaseCount1(4)">Button</button>
+        <button class="card__btn" id="b4" onclick="increaseCount1(4)"><img src="W:\voting\voote\images\img1.jpg" alt="" width="50px" height="50px" style="border-radius: 4px;">Button</button>
         <p>Number: <span id="counter_4">0</span></p>
      </div>
  </div>
@@ -122,13 +123,20 @@
 
 <!-- Button to submit-->
 <div class="bb1">
-<button class="button"  id="submit">
+<button class="button"  id="submit" onclick="Submit">
   <span>Submit</span>
 </button>
 
 </div>
 <script>
-
+document.getElementById("submit").addEventListener("click", function () {
+    const buttonIds = ["b1", "b2", "b3", "b4", "v1", "v2", "v3", "v4"];
+    buttonIds.forEach(function(id) {
+        document.getElementById(id).disabled = false;
+      
+    });
+     alert("THANKS  FOR VOTE !");
+});
 </script>
 </body>
 </html>

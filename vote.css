@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body{
+
     background-color: #feffff;
     width: 100%;
     height: 100%;
@@ -70,8 +71,8 @@ body{
 
 .card__btn {
   margin-top: 15px;
-  width: 76px;
-  height: 31px;
+  width: 60px;
+  height: 70px;
   border: 2px solid var(--main-color);
   border-radius: 4px;
   font-weight: 700;
