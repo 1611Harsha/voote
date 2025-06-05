@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Button Click Counter</title>
+</head>
+<body>
+
+<button id="btn1" onclick="increaseCount(1)">Button 1</button>
+<p id="counter1">0</p>
+
+<button id="btn2" onclick="increaseCount(2)">Button 2</button>
+<p id="counter2">0</p>
+
+<script>
+  let count1 = 0;
+  let count2 = 0;
+
+  function increaseCount(buttonNumber) {
+    if (buttonNumber === 1) {
+      count1++;
+      document.getElementById("counter1").innerText = count1;
+    } else if (buttonNumber === 2) {
+      count2++;
+      document.getElementById("counter2").innerText = count2;
+    }
+  }
+</script>
+
+</body>
+</html>

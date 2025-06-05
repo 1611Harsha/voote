@@ -29,7 +29,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn"  id="b1" onclick="disableButton(this)">Button</button>
+        <button class="card__btn"  id="b1" onclick="increaseCount1(1)">Button</button>
         <p>Number: <span id="counter_1">0</span></p>
     </div>
   </div>
@@ -40,7 +40,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn" id="b2" onclick="disableButton(this)">Button</button>
+        <button class="card__btn" id="b2" onclick="increaseCount1(2)">Button</button>
         <p>Number: <span id="counter_2">0</span></p>
     </div>
   </div>
@@ -51,7 +51,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn" id="b3" onclick="disableButton(this)">Button</button>
+        <button class="card__btn" id="b3" onclick="increaseCount1(3)">Button</button>
         <p>Number: <span id="counter_3">0</span></p>
     </div>
  </div>
@@ -62,7 +62,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn" id="b4" onclick="disableButton(this)">Button</button>
+        <button class="card__btn" id="b4" onclick="increaseCount1(4)">Button</button>
         <p>Number: <span id="counter_4">0</span></p>
      </div>
  </div>
@@ -80,7 +80,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn1"  id="v1" onclick="disableButton2(this)">Button</button>
+        <button class="card__btn1"  id="v1" onclick="increaseCount(1)">Button</button>
         <p>Number: <span id="counter1_1">0</span></p>
     </div>
   </div>
@@ -91,7 +91,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn1" id="v2" onclick="disableButton2(this)">Button</button>
+        <button class="card__btn1" id="v2" onclick="increaseCount(2)">Button</button>
         <p>Number: <span id="counter1_2">0</span></p>
     </div>
   </div>
@@ -102,7 +102,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn1" id="v3" onclick="disableButton2(this)">Button</button>
+        <button class="card__btn1" id="v3" onclick="increaseCount(3)">Button</button>
         <p>Number: <span id="counter1_3">0</span></p>
     </div>
  </div>
@@ -113,7 +113,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn1" id="v4" onclick="disableButton2(this)">Button</button>
+        <button class="card__btn1" id="v4" onclick="increaseCount(4)">Button</button>
         <p>Number: <span id="counter1_4">0</span></p>
      </div>
  </div>
@@ -128,11 +128,7 @@
 
 </div>
 <script>
-document.getElementById("submit").addEventListener("click", function () {
-    if (confirm("Are you sure you want to submit?")) {
-        alert("Request submitted");
-    }
-});
+
 </script>
 </body>
 </html>
