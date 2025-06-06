@@ -1,4 +1,3 @@
-
 let count2_1 = 0;
 let count2_2 = 0;
 let count2_3 = 0;
@@ -71,4 +70,3 @@ console.log(buttonNumber.id)
         }
       });
 }
-
