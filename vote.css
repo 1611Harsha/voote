@@ -110,6 +110,46 @@ body{
   text-transform: uppercase;
   transition: all 0.3s;
 }
+.card__btn2 {
+  margin-top: 15px;
+  width: 76px;
+  height: 31px;
+  border: 2px solid var(--main-color);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 11px;
+  color: var(--main-color);
+  background: var(--bg-color);
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+.card__btn4  {
+  margin-top: 15px;
+  width: 76px;
+  height: 31px;
+  border: 2px solid var(--main-color);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 11px;
+  color: var(--main-color);
+  background: var(--bg-color);
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.card__btn5  {
+  margin-top: 15px;
+  width: 76px;
+  height: 31px;
+  border: 2px solid var(--main-color);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 11px;
+  color: var(--main-color);
+  background: var(--bg-color);
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
 
 .card__btn-solid1 {
   background: var(--main-color);
@@ -238,18 +278,72 @@ body{
 /* TOP to submit */ 
 .title {
   font-weight: 700;
+  margin-top: 25px;
   font-size: 17px;
-  line-height: 21px;
-  margin: auto;
+  margin-left: 250px;
   color: #2B2B2F;
-  padding-top: 20px;
+  padding-top: 10px;
 }
-.description {
-  max-width: 80%;
+.img2 {
+
+  display: flex;
+  position: relative;
+}
+.banner{
+  display: flex;
+}
+/* Result bt */
+/* From Uiverse.io by SupportHotline */ 
+.button23 {
+  margin-top: 800px;
+  background: var(--color-back);
+  border-radius: 0.5em;
+  box-shadow:
+    inset 0px -6px 18px -6px rgba(3, 15, 20, 0),
+    inset rgba(54, 69, 75, 1) -1px -1px 6px 0px,
+    inset 12px 0px 12px -6px rgba(3, 15, 20, 0),
+    inset -12px 0px 12px -6px rgba(3, 15, 20, 0),
+    rgba(54, 69, 75, 1) -1px -1px 6px 0px;
+  border: solid 2px #030f14;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0.7em 1.7em;
+  outline: none;
+  transition: all 0.3s;
+  user-select: none;
+}
+
+.button23:hover {
+  box-shadow:
+    inset 0px -6px 18px -6px rgba(3, 15, 20, 1),
+    inset 0px 6px 18px -6px rgba(3, 15, 20, 1),
+    inset 12px 0px 12px -6px rgba(3, 15, 20, 0),
+    inset -12px 0px 12px -6px rgba(3, 15, 20, 0),
+    -1px -1px 6px 0px rgba(54, 69, 75, 1);
+}
+
+.button23:active {
+  box-shadow:
+    inset 0px -12px 12px -6px rgba(3, 15, 20, 1),
+    inset 0px 12px 12px -6px rgba(3, 15, 20, 1),
+    inset 12px 0px 12px -6px rgba(3, 15, 20, 1),
+    inset -12px 0px 12px -6px rgba(3, 15, 20, 1),
+    -1px -1px 6px 0px rgba(54, 69, 75, 1);
+}
+
+.text23 {
+  color: #d0a756;
+  font-weight: 700;
   margin: auto;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 16px;
-  text-align: center;
-  color: #5F5D6B;
+  transition: all 0.3s;
+  width: fit-content;
 }
+
+.button23:hover .text23 {
+  transform: scale(0.9);
+}
+
+.button23:active .text23 {
+  transform: scale(0.8);
+}
+
