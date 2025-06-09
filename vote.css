@@ -99,8 +99,8 @@ body{
 }
 .card__btn1 {
   margin-top: 15px;
-  width: 76px;
-  height: 31px;
+  width: 60px;
+  height: 70px;
   border: 2px solid var(--main-color);
   border-radius: 4px;
   font-weight: 700;
@@ -111,9 +111,9 @@ body{
   transition: all 0.3s;
 }
 .card__btn2 {
-  margin-top: 15px;
-  width: 76px;
-  height: 31px;
+ margin-top: 15px;
+  width: 60px;
+  height: 70px;
   border: 2px solid var(--main-color);
   border-radius: 4px;
   font-weight: 700;
@@ -125,8 +125,8 @@ body{
 }
 .card__btn4  {
   margin-top: 15px;
-  width: 76px;
-  height: 31px;
+  width: 60px;
+  height: 70px;
   border: 2px solid var(--main-color);
   border-radius: 4px;
   font-weight: 700;
@@ -139,8 +139,8 @@ body{
 
 .card__btn5  {
   margin-top: 15px;
-  width: 76px;
-  height: 31px;
+  width: 60px;
+  height: 70px;
   border: 2px solid var(--main-color);
   border-radius: 4px;
   font-weight: 700;
