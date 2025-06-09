@@ -151,41 +151,42 @@ console.log(buttonNumber4.id)
          });
   }     
 
-  let countp_1 = 0;
-let countp_2= 0;
-let countp_3= 0;
-let countp_4= 0;
-  function Pupil(buttonNumber5) {
-    if ((buttonNumber5 === 1)){
-      countp_1++;
-      document.getElementById('Pupil1_1').innerText = countp_1;
+  let Pupil_11 = 0;
+let Pupil_12= 0;
+let Pupil_13 = 0;
+let Pupil_14= 0;
+  function numdf(buttonNumber6) {
+    if ((buttonNumber6 === 1)){
+      Pupil_11++;
+      document.getElementById('Pupil1_1').innerText = Pupil_11;
     }
-      if ((buttonNumber5 === 2)){
-      countp_1++;
-      document.getElementById('Pupil1_2').innerText = countp_1;
+      if ((buttonNumber6 === 2)){
+      Pupil_12++;
+      document.getElementById('Pupil1_2').innerText = Pupil_12;
       
 }
-      if ((buttonNumber5 === 3)){
-      countp_1++;
-      document.getElementById('Pupil1_3').innerText = countp_1;
+      if ((buttonNumber6 === 3)){
+      Pupil_13++;
+      document.getElementById('Pupil1_3').innerText = Pupil_13;
       
 }
-      if ((buttonNumber5 === 4)){
-      countp_1++;
-      document.getElementById('Pupil1_4').innerText = countp_1;
+      if ((buttonNumber6 === 4)){
+      Pupil_14++;
+      document.getElementById('Pupil1_4').innerText = Pupil_14;
       
 }
-console.log(buttonNumber5.id)
-    const allbtn = document.querySelectorAll('.card__btn5');
+console.log(buttonNumber6.id)
+    const allbtn = document.querySelectorAll('.card__btn6');
     console.log(allbtn)
     allbtn.forEach((buttonInfo,index)=>{
         console.log(buttonInfo .id)
           var audio = document.getElementById("myAudio");
     audio.play();
-        if(buttonNumber5.id !== buttonInfo.id){ 
+        if(buttonNumber6.id !== buttonInfo.id){ 
             buttonInfo.disabled =true;
         }
          });
   }     
+
 
  

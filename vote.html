@@ -12,6 +12,9 @@
         p {
   display: none;
 }
+p {
+  display: block;
+}
     </style>
  </head>
  <body>
@@ -246,7 +249,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn5"  id="p1" onclick="Pupil(1)"><img src="W:\voting\voote\images\img1.jpg" alt="" width="50px" height="50px" style="border-radius: 4px;">Button</button>
+        <button class="card__btn6"  id="p1" onclick="numdf(1)"><img src="W:\voting\voote\images\img1.jpg" alt="" width="50px" height="50px" style="border-radius: 4px;">Button</button>
         <p>Number: <span id="Pupil1_1">0</span></p>
     </div>
   </div>
@@ -257,7 +260,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn5" id="p2" onclick="Pupil(2)"><img src="W:\voting\voote\images\img1.jpg" alt="" width="50px" height="50px" style="border-radius: 4px;">Button</button>
+        <button class="card__btn6" id="p2" onclick="numdf(2)"><img src="W:\voting\voote\images\img1.jpg" alt="" width="50px" height="50px" style="border-radius: 4px;">Button</button>
         <p>Number: <span id="Pupil1_2">0</span></p>
     </div>
   </div>
@@ -268,7 +271,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn5" id="p3" onclick="Pupil(3)"><img src="W:\voting\voote\images\img1.jpg" alt="" width="50px" height="50px" style="border-radius: 4px;">Button</button>
+        <button class="card__btn6" id="p3" onclick="numdf(3)"><img src="W:\voting\voote\images\img1.jpg" alt="" width="50px" height="50px" style="border-radius: 4px;">Button</button>
         <p>Number: <span id="Pupil1_3">0</span></p>
     </div>
  </div>
@@ -279,7 +282,7 @@
     <div class="card__title">Cameron Williamson</div>
     <div class="card__subtitle">Web Development</div>
     <div class="card__wrapper">
-        <button class="card__btn5" id="p4" onclick="Pupil(4)"><img src="W:\voting\voote\images\img1.jpg" alt="" width="50px" height="50px" style="border-radius: 4px;">Button</button>
+        <button class="card__btn6" id="p4" onclick="numdf(4)"><img src="W:\voting\voote\images\img1.jpg" alt="" width="50px" height="50px" style="border-radius: 4px;">Button</button>
         <p>Number: <span id="Pupil1_4">0</span></p>
      </div>
  </div>
@@ -302,6 +305,9 @@
   <div class="text23">PRESS IN</div>
 </button>
 
+<button class="button22" id="hid">
+  <div class="text22"> PRESS IN </div>
+</button>
 
 <script>
     
@@ -325,6 +331,16 @@ document.getElementById("res").addEventListener("click", function () {
     // Skip <p> tags with specific IDs like login heading, if needed
     if (p.id !== "heading") {
       p.style.display = "block"; // Change to "none" if you want to toggle hide again
+    }
+  });
+});
+
+document.getElementById("hid").addEventListener("click", function () {
+  const paragraphs = document.querySelectorAll("p");
+  paragraphs.forEach(p => {
+    // Optional: Skip the heading if needed (e.g., <p id="heading">Login</p>)
+    if (p.id !== "heading") {
+      p.style.display = "none";
     }
   });
 });
