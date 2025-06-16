@@ -41,6 +41,7 @@ console.log(buttonNumber1.id)
  let count1_2 =0;
  let count1_3 =0;
  let count1_4 =0;
+ let count1_5=0;
   function increaseCount(buttonNumber) {
     if ((buttonNumber === 1)){
       count1++;
@@ -60,6 +61,11 @@ console.log(buttonNumber1.id)
       if ((buttonNumber === 4)){
       count1_4++;
       document.getElementById('counter1_4').innerText = count1_4;
+      
+}
+if ((buttonNumber === 5)){
+      count1_5++;
+      document.getElementById('counter1_5').innerText = count1_5;
       
 }
 console.log(buttonNumber.id)
