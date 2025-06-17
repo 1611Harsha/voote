@@ -331,7 +331,7 @@ p {
 <!-- Button to submit-->
 <div class="bb1">
 <button class="button"  id="submit" onclick="Submit">
-    <audio id="myAudio1" src="W:\voting\voote\audios\end'.mp3"></audio>
+    <audio id="myAudio1" src="W:\voting\voote\audios\end.mp3"></audio>
   <span>Submit</span>
 </button>
 </div>
@@ -352,7 +352,7 @@ p {
 document.getElementById("submit").addEventListener("click", function () {
       var audio = document.getElementById("myAudio1");
     audio.play();
-    const buttonIds = ["b1", "b2", "b3", "b4", "v1", "v2", "v3", "v4","s1","s2","s3","s4","s12","s23","s33","s44","p1","p2","p3","p4"];
+    const buttonIds = ["b1", "b2", "b3","v1", "v2", "v3", "v4","s1","s2","s3","s4","s5","s12","s23","s33","s44","s55","s56","s57","p1","p2","p3","p4"];
     buttonIds.forEach(function(id)
      {
         document.getElementById(id).disabled = false;
