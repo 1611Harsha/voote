@@ -40,7 +40,7 @@ body{
 .card__avatar {
   position: absolute;
   width: 130px;
-  height: 130px;
+  height: 150px;
   background: var(--bg-color);
   border-radius: 100%;
   display: flex;

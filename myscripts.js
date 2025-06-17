@@ -18,11 +18,6 @@ let count2_4= 0;
       
 }
 
-      if ((buttonNumber1 === 4)){
-      count2_4++;
-      document.getElementById('counter_4').innerText = count2_4;
-      
-}
 console.log(buttonNumber1.id)
     const allbtn = document.querySelectorAll('.card__btn');
     console.log(allbtn)
@@ -61,11 +56,6 @@ console.log(buttonNumber1.id)
       if ((buttonNumber === 4)){
       count1_4++;
       document.getElementById('counter1_4').innerText = count1_4;
-      
-}
-if ((buttonNumber === 5)){
-      count1_5++;
-      document.getElementById('counter1_5').innerText = count1_5;
       
 }
 console.log(buttonNumber.id)
