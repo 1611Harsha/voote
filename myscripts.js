@@ -121,6 +121,10 @@ console.log(buttonNumber3.id)
 let count22= 0;
 let count23 = 0;
 let count24= 0;
+let count25= 0;
+let count26 = 0;
+let count27= 0;
+
   function Vice(buttonNumber4) {
     if ((buttonNumber4 === 1)){
       count21++;
@@ -139,6 +143,20 @@ let count24= 0;
       if ((buttonNumber4 === 4)){
       count24++;
       document.getElementById('Vice1_4').innerText = count24;
+      
+}
+if ((buttonNumber4 === 5)){
+      count25++;
+      document.getElementById('Vice1_5').innerText = count25;
+}
+if ((buttonNumber4 === 6)){
+      count26++;
+      document.getElementById('Vice1_6').innerText = count26;
+      
+}
+if ((buttonNumber4 === 7)){
+      count27++;
+      document.getElementById('Vice1_7').innerText = count27;
       
 }
 console.log(buttonNumber4.id)
