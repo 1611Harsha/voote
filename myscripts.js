@@ -76,6 +76,7 @@ let count2_11 = 0;
 let count2_22= 0;
 let count2_33 = 0;
 let count2_44= 0;
+let count2_45= 0;
   function SportsCaptain(buttonNumber3) {
     if ((buttonNumber3 === 1)){
       count2_11++;
@@ -96,6 +97,12 @@ let count2_44= 0;
       document.getElementById('sport1_4').innerText = count2_44;
       
 }
+ if ((buttonNumber3 === 5)){
+      count2_45++;
+      document.getElementById('sport1_5').innerText = count2_45;
+      
+}
+
 console.log(buttonNumber3.id)
     const allbtn = document.querySelectorAll('.card__btn2');
     console.log(allbtn)
